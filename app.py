@@ -17,7 +17,7 @@ st.caption("department of AI & DS ")
 
 try:
     client=Groq(api_key=st.secrets['GROQ_API_KEY'])
-    st.write=("API Connection Successfull")
+    st.write("API Connection Successfull")
 except (keyError, FileNotFoundError):
     st.error('GROQ_API_KEY is missing. Add it to Streamlit Cloud -> App settings Secrects ')
     st.stop()
