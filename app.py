@@ -12,3 +12,4 @@ st.title("AI Interview Assistant")
 st.caption("Practice interviews with AI-integrated questions and constructive feedback.")
 
 st.caption("Launched by Anusha A")
+st.caption("department of AI & DS ")
