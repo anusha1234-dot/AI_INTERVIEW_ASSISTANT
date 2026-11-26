@@ -34,7 +34,7 @@ role=st.selectbox("Select Job Role",[
     "machine learning engineer",
     "software Engineer",
     "Hr Executive"
-)]
+])
 if st.button("Genrative Interview Questions"):
    prompt="Genrative 5 interview questions for the role of " + role
    response=client.chat.completions.create(
