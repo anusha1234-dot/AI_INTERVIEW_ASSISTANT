@@ -43,6 +43,6 @@ if st.button("Genrative Interview Questions"):
                {"role":"system","content":"You are an expert technical interviwer"},
            {"role":"user","content":prompt}
        ]
-    )
-    output=response.choices[0].message.content
-    st.write(output)
+   )
+   output=response.choices[0].message.content
+   st.write(output)
