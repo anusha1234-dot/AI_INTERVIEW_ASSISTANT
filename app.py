@@ -15,7 +15,7 @@ st.caption("Launched by Anusha A")
 st.caption("department of AI & DS ")
 
 
-```python
+
 try:
     client = Groq(api_key=st.secrets["GROQ_API_KEY"])
     st.success("API Connection Successful")
@@ -25,7 +25,7 @@ except (KeyError, FileNotFoundError):
         "GROQ_API_KEY is missing. "
         "Add it to Streamlit Cloud → App Settings → Secrets."
     )
-```
+
     st.stop()
 role=st.selectbox("Select Job Role",[
     "Python Developer",
