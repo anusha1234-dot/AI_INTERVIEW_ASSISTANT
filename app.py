@@ -40,7 +40,7 @@ if st.button("Genrative Interview Questions"):
    response=client.chat.completions.create(
        model="openai/gpt-oss-120b",
        messages=[
-               {"role":"system","content":You are an expert technical interviwer"},
+               {"role":"system","content":"You are an expert technical interviwer"},
            {"role":"user"."content":prompt}
        ]
     )
