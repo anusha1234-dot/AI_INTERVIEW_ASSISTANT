@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 from groq import Groq
 
@@ -49,4 +48,4 @@ if st.button("Generate Interview Question"):
     output = response.choices[0].message.content
 
     st.write(output)
-```
+
